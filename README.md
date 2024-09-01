@@ -1,17 +1,17 @@
 <p align="center"><a href="https://m.me/MR.ARIF.2X" target="_blank" rel="noopener noreferrer">
-  <img src="https://i.imgur.com/LmRGRGR.jpeg" width="50" style="margin-right: 10px;"></a>
+  <img src="https://i.imgur.com/4eNjCkD.jpeg" width="50" style="margin-right: 10px;"></a>
 </p>
 <h5 align="center">
 🔹ARIF BABU
 </h5>
-<img src="https://i.imgur.com/4eNjCkD.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> ARIF BOT - Bot Chat Messenger</h1>
+<img src="https://i.imgur.com/LmRGRGR.jpeg" alt="banner">
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> 𝐀𝐑𝐈𝐅 𝐁𝐀𝐁𝐔 - Bot Chat Messenger</h1>
 
 <p align="center">
 	<a href="https://nodejs.org/dist/v11.30.0">
 		<img src="https://img.shields.io/badge/Nodejs%20Support-17.ox-brightgreen.svg?style=flat-square" alt="Nodejs Support v17.ox">
 	</a>
-  <img alt="size" src="https://img.shields.io/github/repo-size/ayankhan/ARIF-BOT.svg?style=flat-square&label=size">
+  <img alt="size" src="https://img.shields.io/github/repo-size/arifkhan/𝐀𝐑𝐈𝐅 𝐁𝐀𝐁𝐔.svg?style=flat-square&label=size">
   <img alt="code-version" src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=code%20version&prefix=v&query=%24.version&url=https://github.com/ntkhang03/Goat-Bot-V2/raw/main/package.json&style=flat-square">
   <img alt="visitors" src="https://visitor-badge.laobi.icu/badge?style=flat-square&page_id=ntkhang3.Goat-Bot-V2">
   <img alt="size" src="https://img.shields.io/badge/license-ATF-green?style=flat-square&color=brightgreen">
@@ -34,10 +34,10 @@
 
 <div align="center">
 			<h3>My Replit Account ->
-			<a href="https://replit.com/@mohammadayan555" style="color: green;">@Ayanchoudhuri🔥</a>
+			<a href="https://replit.com/@mohammadayan555" style="color: green;">@𝐀𝐑𝐈𝐅 𝐁𝐀𝐁𝐔🔥</a>
 				<br>
 	My Facebook Account ->
-	<a href="https://www.facebook.com/swordigo.swordslush?mibextid=rS40aB7S9Ucbxw6v" style="color: black;">Ayan🚀</a></h3></div>
+	<a href="https://www.facebook.com/swordigo.swordslush?mibextid=rS40aB7S9Ucbxw6v" style="color: black;">𝐀𝐑𝐈𝐅🚀</a></h3></div>
 
 <img align="center" src="https://i.imgur.com/4eNjCkD.jpeg"/>
 
