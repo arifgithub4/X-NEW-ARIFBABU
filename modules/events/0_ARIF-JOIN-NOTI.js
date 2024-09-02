@@ -2,8 +2,8 @@ module.exports.config = {
     name: "joinNoti",
     eventType: ["log:subscribe"],
     version: "1.0.1",
-    credits: "PREM BABU",
-    description: "THIS BOT WAS MADE BY MR PREM BABU",
+    credits: "ARIF BABU",
+    description: "THIS BOT WAS MADE BY MR ARIF BABU",
     dependencies: {
         "fs-extra": "",
         "path": "",
@@ -15,10 +15,10 @@ module.exports.onLoad = function () {
     const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
     const { join } = global.nodemodule["path"];
  
-    const path = join(__dirname, "PREM BABU", "PREM-1");
+    const path = join(__dirname, "ARIF-BABU", "ARIF-1");
     if (existsSync(path)) mkdirSync(path, { recursive: true }); 
  
-    const path2 = join(__dirname, "PREM BABU", "PREM-1");
+    const path2 = join(__dirname, "ARIF-BABU", "ARIF-1");
     if (!existsSync(path2)) mkdirSync(path2, { recursive: true });
  
     return;
@@ -29,7 +29,7 @@ module.exports.run = async function({ api, event }) {
     const { join } = global.nodemodule["path"];
     const { threadID } = event;
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
-        api.changeNickname(`[ ${global.config.PREFIX} ] 𒁍 ${(!global.config.BOTNAME) ? "TAKLU BABU" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
+        api.changeNickname(`[ ${global.config.PREFIX} ] 𒁍 ${(!global.config.BOTNAME) ? "ARIF BABU" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
         const fs = require("fs");
         return api.sendMessage("", event.threadID, () => api.sendMessage({body: `┏━━━━━┓\n    आरिफ-बाबू               ✧═•❁𝗪𝗘𝗟𝗖𝗢𝗠𝗘❁•═✧\n┗━━━━━┛\n\n\nलो में आ गया आपका आरिफ बाबू जल्दी से स्वागत करो हमारा 😀\n════════════════════════ ❁\n\nऔर जल्दी से मेरे बॉस आरिफ बाबू को रिक्वेस्ट भेज दो 😌\n════════════════════════ ❁\n\nMY BOSS  𒁍 MR ARIF BABU 🌺\n════════════════════════ ❁\n\nFACEBOOK ID LINK 🔗 𒁍 https://www.facebook.com/profile.php?id=61553634015672&mibextid=kFxxJD\n════════════════════════ ❁\n\nMY PREFIX 𒁍   [${global.config.PREFIX}]\n════════════════════════ ❁\n\nTHANKYOU FOR USING MR ARIF BABU BOT`, attachment: fs.createReadStream(__dirname + "/cache/botjoin.mp4")} ,threadID));
     }
@@ -39,7 +39,7 @@ module.exports.run = async function({ api, event }) {
             let { threadName, participantIDs } = await api.getThreadInfo(threadID);
  
             const threadData = global.data.threadData.get(parseInt(threadID)) || {};
-            const path = join(__dirname, "PREM BABU", "PREM-1");
+            const path = join(__dirname, "ARIF-BABU", "ARIF-1");
             const pathGif = join(path, `${threadID}.video`);
  
             var mentions = [], nameArray = [], memLength = [], i = 0;
@@ -61,11 +61,11 @@ module.exports.run = async function({ api, event }) {
  
             if (existsSync(path)) mkdirSync(path, { recursive: true });
  
-            const randomPath = readdirSync(join(__dirname, "PREM BABU", "PREM-1"));
+            const randomPath = readdirSync(join(__dirname, "ARIF-BABU", "ARIF-1"));
  
             if (existsSync(pathGif)) formPush = { body: msg, attachment: createReadStream(pathvideo), mentions }
             else if (randomPath.length != 0) {
-                const pathRandom = join(__dirname, "PREM BABU", "PREM-1", `${randomPath[Math.floor(Math.random() * randomPath.length)]}`);
+                const pathRandom = join(__dirname, "ARIF-BABU", "ARIF-1", `${randomPath[Math.floor(Math.random() * randomPath.length)]}`);
                 formPush = { body: msg, attachment: createReadStream(pathRandom), mentions }
             }
             else formPush = { body: msg, mentions }
